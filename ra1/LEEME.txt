@@ -1,0 +1,22 @@
+QUADERN RA1 (T1–T5) – cómo publicarlo
+=====================================
+
+Contenido:
+  index.html  → la página (apuntes, trampas, Ex5, simulacro, mis errores)
+  pdf/        → los PDF de los temas que abren las referencias
+
+Cómo subirlo:
+  1. Sube TODA la carpeta (index.html + pdf/) a tu hosting por FTP o desde
+     el gestor de archivos, por ejemplo en public_html/ra1/
+  2. Abre https://tu-dominio.com/ra1/
+  Es una web estática: no necesita Node, base de datos ni configuración.
+
+Notas:
+  - Tiene que servirse por http(s). Si abres index.html con doble clic,
+    las referencias abren el PDF en otra pestaña en vez de en el panel.
+  - "Mis errores" se guarda en el navegador de cada persona: cada amigo
+    tiene los suyos.
+  - Lleva <meta name="robots" content="noindex">: Google no la indexará.
+    Si quieres que salga en buscadores, borra esa línea.
+  - Si no quieres publicar los PDF del profesor, borra la carpeta pdf/:
+    todo lo demás sigue funcionando, pero las referencias no abrirán nada.

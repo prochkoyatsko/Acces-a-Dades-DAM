@@ -1,0 +1,6 @@
+# Fuerza HTTPS: redirige cualquier visita por http:// a https://
+# (solo funciona en hosting Apache/LiteSpeed y cuando el certificado ya está activo)
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
