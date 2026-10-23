@@ -9,4 +9,8 @@ Apunts, exercicis, codi i recursos del mòdul d'Accés a Dades (DAM). Material c
 | 1   | Persistència en fitxers       | ✅    | [Apunts](http://a24oleproyat.dam.inspedralbes.cat/apuntes/ra1/index.html) |
 | 2   | Persistència en BDR-BDOR-BDOO | 🚧    | —                                                                         |
 
+> **Note:** The live demo is hosted on an educational student server and may become unavailable in the future.
+
+
 **Llegenda:** ✅ Disponible · 🚧 En desenvolupament · ⏳ Pendent
+
